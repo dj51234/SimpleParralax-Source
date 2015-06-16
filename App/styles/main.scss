@@ -1,0 +1,20 @@
+// bower:scss
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/normalize.css/normalize.css';
+// endbower
+
+@import 'pages/animations.scss';
+@import 'pages/header';
+@import 'pages/about';
+@import 'pages/food';
+@import 'pages/menu';
+@import 'pages/info';
+@import 'pages/footer';
+
+body{
+
+	background-color: #FFFFF1;
+}
+
+
+

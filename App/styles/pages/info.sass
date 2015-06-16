@@ -1,0 +1,63 @@
+#moreinfo
+	color: #333
+	text-align: center
+	margin-bottom: 400px
+	position: relative 
+	z-index: 2
+	background-color: #FFF
+
+	.info-text
+			max-width: 700px
+			padding: 0
+			margin: 0  auto
+			padding: 200px 0 50px
+
+
+			p 
+				margin-bottom: 40px
+
+			.info-article
+				line-height: 30px
+				padding: 15px 0
+				border-top: 1px solid #333
+
+	.flex-info
+		+display(flex)
+		text-align: center
+		max-width: 700px
+		margin: 100px auto 
+		position: relative
+		padding-bottom: 200px
+			
+		
+		.info-item
+			padding: 10px 20px
+			border: 1px solid #CCC
+			margin: 5px
+			background-color: #FFF
+
+		.info-item1
+			+transform(translate(100px, 20px))
+
+		.info-item2
+			z-index: 2
+
+		.info-item3
+			+transform(translate(-100px, 20px))
+
+		.info-img
+			height: 100px
+			width: auto
+			
+
+		.info-btn
+			background-color: #FFFFF1
+			color: #333
+			border: 1px solid #333
+			padding: 5px 10px
+
+			&:hover
+				color: #EEE
+				background-color: #333
+
+
