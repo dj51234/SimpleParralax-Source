@@ -4,6 +4,6 @@
   "dependencies": {
     "jquery": "~2.1.1",
     "bourbon",
-    normalize.css
+    normalize.css;
   }
 }
